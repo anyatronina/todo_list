@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background-image: url('jpg/bg_1.jpg');
+    background-size: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 3px solid black;
+    margin-right: 10px;
+}
+
+.doc {
+    background:rgba(255, 251, 242, 0.89);
+    width: 40%;
+    margin: auto;
+    padding: 10px 0 15px 30px;
+    
+}
+
+.list {
+    font-family: inherit;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.list-item {
+    display: flex;
+    margin-bottom: 10px;
+    border-bottom: 2px solid gainsboro;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.add_task input {
+    padding-left: 9px;
+    width: 50%;
+    height: 24px;
+    background-color: #d6e2e0;
+    border-radius: 3px;
+    outline: none;
+    opacity: 0.8;
+}
+
+.add_task button {
+    width: 20%;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all .3s;
+    background-color: #8ab6a9;
+    font-size: 10;
+}
+
+.add_task button:hover {
+    background-color: #508068;
+    color: white;
+    text-decoration: dashed;
+    
+}
+
+.crossedOut {
+    text-decoration: line-through;
+}
+
+.delete {
+    width: 20px;
+    height: 20px;
+    border-color: transparent;
+}
+
+.active {
+    background:transparent;
+    background-image: url("jpg/trash.png");
+    background-size: cover;
+    cursor: pointer;
+    opacity: 0.88;
+}
+
+.notActive {
+    background: transparent;
+}
+
+.btnDelete {
+    width:20px;
+    height:20px;
+}
+
+
+/* .delete { 
+    display: none;
+    position: absolute;
+    right: 420px;
+    width: 20px;
+    height: 20px;
+    
+    cursor: pointer;
+}
+
+.delete:hover {
+    display: flex;
+    background: url('jpg/trash.png');
+} */
+
